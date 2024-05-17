@@ -95,6 +95,7 @@ button{
   display: flex;
   justify-content: space-between;
   padding-bottom: 12px;
+  color: rgb(1, 255, 1)
 }
 
 @media screen and (min-width: 2560px) {

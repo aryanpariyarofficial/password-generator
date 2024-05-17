@@ -4,22 +4,22 @@ const PasswordStrengthChecker = ({password=""}) => {
     const getPasswordStrength = () => {
         const passwordLength = password.length;
         if(passwordLength < 1){
-            return "Null";
+            return "Hawkeye";
         }
         else if(passwordLength < 4){
-            return "Very Week";
+            return "Daredevil";
         }
         else if(passwordLength < 8){
-            return "Poor";
+            return "Spider-Man";
         }
         else if(passwordLength < 12){
-            return "Medium";
+            return "Aquaman";
         }
         else if(passwordLength < 16){
-            return "Strong";
+            return "Thor";
         }
         else{
-            return "Very Strong";
+            return "Superman";
         }
     };
     const passwordStrength = getPasswordStrength();

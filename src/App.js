@@ -6,10 +6,10 @@ import PasswordStrengthChecker from "./component/strengthChecker";
 function App() {
   const [length, setLength] = useState(4);
   const [checkBoxData, setCheckBoxData] = useState([
-  { title:"Include Uppercase Letter", state: false },
-  { title:"Include Lowercase Letter", state: false },
-  { title:"Include Numbers", state: false },
-  { title:"Include Symbols", state: false }
+  { title:"Include Uppercase Letter", state: true },
+  { title:"Include Lowercase Letter", state: true },
+  { title:"Include Numbers", state: true },
+  { title:"Include Symbols", state: true }
 ]);
 const [copied, setCopied] = useState(false);
 
