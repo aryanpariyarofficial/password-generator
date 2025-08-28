@@ -49,7 +49,7 @@ const {password, error, generatePassword} = usePasswordGenerator();
         </span>
         <input 
         type='range'
-        min={"14"}
+        min={"4"}
         max={"20"}
         value={length}
         onChange={(e)=> setLength(e.target.value)}
