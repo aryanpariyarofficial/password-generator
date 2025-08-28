@@ -4,7 +4,7 @@ import usePasswordGenerator from './hooks/use-password-generator';
 import PasswordStrengthChecker from "./component/strengthChecker";
 
 function App() {
-  const [length, setLength] = useState(4);
+  const [length, setLength] = useState(15);
   const [checkBoxData, setCheckBoxData] = useState([
   { title:"Include Uppercase Letter", state: true },
   { title:"Include Lowercase Letter", state: true },
