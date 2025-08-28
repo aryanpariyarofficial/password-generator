@@ -4,7 +4,7 @@ import usePasswordGenerator from './hooks/use-password-generator';
 import PasswordStrengthChecker from "./component/strengthChecker";
 
 function App() {
-  const [length, setLength] = useState(15);
+  const [length, setLength] = useState(4);
   const [checkBoxData, setCheckBoxData] = useState([
   { title:"Include Uppercase Letter", state: true },
   { title:"Include Lowercase Letter", state: true },
@@ -49,7 +49,7 @@ const {password, error, generatePassword} = usePasswordGenerator();
         </span>
         <input 
         type='range'
-        min={"4"}
+        min={"14"}
         max={"20"}
         value={length}
         onChange={(e)=> setLength(e.target.value)}
